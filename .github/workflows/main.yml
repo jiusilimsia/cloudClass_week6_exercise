@@ -28,3 +28,6 @@ jobs:
 
       - name: Run tests
         run: pytest tests
+
+      - name: Run code coverage
+        run: pytest --cov tests
